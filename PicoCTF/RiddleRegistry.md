@@ -7,3 +7,8 @@ There are multiple ways to find metadata, but from the browser, you can simply g
 https://exif.tools/upload.php for a quick glance at the data. 
 
 <img width="1047" height="956" alt="Pasted image 20260125064332" src="https://github.com/user-attachments/assets/f09bdc68-4dad-432a-8295-5b10a64685a0" />
+
+Ah. A let's take a quick trip to our friend CyberChef - https://gchq.github.io/CyberChef/
+
+And that's it!
+ picoCTF{REDACTED}
