@@ -20,4 +20,4 @@ I tried running "grep" on the first 8 or so characters to try and see if this wa
 
 After painstakingly typing the string into CyberChef again, you can decode the message from hex and type in the flag.
 
-Another one down!
+Another one down! picoCTF{REDACTED}
