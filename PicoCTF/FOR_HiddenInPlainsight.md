@@ -7,17 +7,17 @@ I open steghide and try to access the metadata, but the file is locked with a pa
 
 Alright, let's try to use a password list and a simple bash script (you can vibe code here if need be):
 
-for password in $(cat rockyou.txt); do steghide extract -sf img.jpg -p "$password" > /dev/null 2>&1
-
-if [$? -eq 0 ]; then
-
-  echo "Password found: $password"
-  
-  break
-
-fi 
-
-done
+> for password in $(cat rockyou.txt); do steghide extract -sf img.jpg -p "$password" > /dev/null 2>&1
+> 
+> if [$? -eq 0 ]; then
+> 
+>   echo "Password found: $password"
+> 
+>   break
+> 
+> fi
+> 
+> done
 
 Still not found using this method. Let's try a different route.
 Upload to trusty https://exif.tools/upload.php again, and found an interesting comment. (Also, KISS)
