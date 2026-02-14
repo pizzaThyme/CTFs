@@ -14,6 +14,6 @@ I also tried the "grep" command in the new folder, but it was taking a long time
 
 Hint says to use strings, so let's go back to the top and rename it to a .dd file and try grep from here:
 
-strings disko-1.dd -n 8 | grep 'picoCTF{' 
+> strings disko-1.dd -n 8 | grep 'picoCTF{' 
 
 It seems so simple in retrospect, but the with the grep and strings command you'll find the flag in no time. picoCTF{REDACTED}
