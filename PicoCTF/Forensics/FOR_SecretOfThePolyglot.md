@@ -6,7 +6,9 @@ I recently took SANS SEC450, and our professor made mention of these types of fi
 
 <img width="640" height="535" alt="Pasted image 20260218030047" src="https://github.com/user-attachments/assets/58508837-09b1-4ee6-b450-f35f29767e82" />
 
-A polyglot is essentially a "wolf in sheep's clothing." It may say that it's one thing (and it may very well be), but there could be something malicious (a payload or script) hidden in the file as well.
+A polyglot is essentially a "wolf in sheep's clothing." It may say that it's one thing (and it may very well be), but there could be something malicious (a payload or script) hidden in the file as well. 
+
+Attackers can use these files to infiltrate malicious payloads into the network via email *or* even use it exfiltrate sensitive data. 
 
 The file name we see is "flag2of2-final.pdf", so let's go ahead and try to open the file as a PDF.
 
